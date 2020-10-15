@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'components/common';
 import { Header } from 'components/theme';
-import dev from 'assets/illustrations/skills3.svg';
+import dev from 'assets/illustrations/skills.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
 export const Skills = () => (

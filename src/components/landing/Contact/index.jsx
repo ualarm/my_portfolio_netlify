@@ -10,7 +10,7 @@ export const Contact = () => (
     <Header />
     <IntroWrapper as={Container}>
       <Details>
-        <h1>Drop me a line!</h1>
+        <h1>Drop us a line!</h1>
         <ContactForm />
         <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank"> Privacy Policy</a> and <a href="https://policies.google.com/privacy" target="_blank"> Terms of Service</a> apply.</p>
         <h1>Get Started Today</h1>
