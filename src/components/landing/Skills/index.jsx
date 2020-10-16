@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'components/common';
 import { Header } from 'components/theme';
 import dev from 'assets/illustrations/skills.svg';
+import serv from 'assets/illustrations/consulting.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
 export const Skills = () => (
@@ -9,10 +10,10 @@ export const Skills = () => (
     <Header />
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={dev} alt="I’m Shan and I’m an Automation Developer!" />
+        <img src={dev} alt="I’m Shan and I’m an Automation Specialist!" />
       </Thumbnail>
       <Details>
-        <p>Skills</p>
+        <h1>Skills</h1>
         <ul>
           <li>programming/scripting skills: python/javascript/java/C#/VBScript/etc</li>
           <li>test automation frameworks: keyword driven/behavior driven/library based/hybrid/etc</li>
@@ -21,8 +22,24 @@ export const Skills = () => (
           <li>continuous integration: Ant/Maven/Jenkins/TeamCity</li>
           <li>source control: git/perforce/svn</li>
         </ul>
-        <p>My resume is <a href="https://my.indeed.com/p/shawnm-4kmitqt" target="_blank"> Here</a></p>
+        <p>My resume is <a href="https://my.indeed.com/p/shawnm-4kmitqt" target="_blank"> on Indeed</a></p>
       </Details>
+    </SkillsWrapper>
+    <SkillsWrapper as={Container}>
+      <Details>
+        <h1>What I can do</h1>
+        <ul>
+          <li>Build test automation framework from scratch and provide training/knowledge transfer</li>
+          <li>Evaluate and select best automation tools</li>
+          <li>Migrate/improve existing automation framework</li>
+          <li>Businees process selection/improvement for process automation</li>
+          <li>Build demos/components/libraries for selected business subprocess</li>
+          <li>Troubleshoot configuration/production issues related to automation</li>
+        </ul>
+      </Details>
+      <Thumbnail>
+        <img src={serv} alt="I’m Shan and I’m an Automation Specialist!" />
+      </Thumbnail>
     </SkillsWrapper>
   </Wrapper>
 );

@@ -13,7 +13,7 @@ export const Intro = () => (
         <h4>I’m Shan Mi and I’m an Automation Specialist with 20+ years of experiences</h4>
       </Details>
       <Thumbnail>
-        <img src={dev} alt="I’m Shan Mi and I’m an Automation Developer!" />
+        <img src={dev} alt="I’m Shan Mi and I’m an Automation Specialist!" />
       </Thumbnail>
     </IntroWrapper>
   </Wrapper>

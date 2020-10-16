@@ -14,7 +14,7 @@ export const Contact = () => (
         <ContactForm />
         <p>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank"> Privacy Policy</a> and <a href="https://policies.google.com/privacy" target="_blank"> Terms of Service</a> apply.</p>
         <h1>Get Started Today</h1>
-        <h2>We offer a broad range of consulting services from evaluation/tool selection/implementation/delivery/training in test automation and process automation. Send us a message today, and we can start you on a path to success.</h2>
+        <h2>We offer a broad range of consulting services in test automation and process automation. Send us a message today, and we can start you on a path to success.</h2>
       </Details>
       {/*<Thumbnail>
         <img src={contact} alt="I’m Shan and I’m an Automation Developer!" />
