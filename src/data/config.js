@@ -1,14 +1,14 @@
 module.exports = {
   defaultTitle: 'Shan Mi',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
+  author: 'Shan Mi',
   url: '',
   legalName: 'Shan Mi',
-  defaultDescription: 'I’m Shan and I’m an automation developer',
+  defaultDescription: 'I’m Shan and I’m an automation specialist',
   socialLinks: {
     github: 'https://github.com/ualarm',
   },
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-180700878-1',
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   address: {
