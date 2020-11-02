@@ -1,4 +1,5 @@
 import React from 'react';
+import { css } from 'emotion';
 import { Form, withFormik, FastField, ErrorMessage } from 'formik';
 import Recaptcha from 'react-google-recaptcha';
 import * as Yup from 'yup';
@@ -6,8 +7,15 @@ import { Button, Input } from 'components/common';
 import { recaptcha_key } from 'data/config';
 import { Error, Center, InputField } from './styles';
 
+const FlexForm = css`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+`;
+
 const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) => (
-  <Form
+  <Form className={FlexForm} 
     text-align="center"
     name="portfolio-dev"
     method="post"
